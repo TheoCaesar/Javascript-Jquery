@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url(https://www.javascriptbook.com/code/c01/images/constructive-backdrop.jpg) no-repeat center bottom fixed;
+    background-size: cover;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;;
+}
+
+div.box {
+    border: 0.5px solid rgb(0, 0, 0);
+    margin: 35px;
+    padding: 5px;
+    width: 320px;
+    height: 330px;
+    background:  white url(https://www.javascriptbook.com/code/c01/images/constructive-logo.gif) no-repeat;
+    background-position: top center;
+    text-align: center;
+}
+
+.greeting {
+    position: relative;
+    bottom: -180px;
+    text-transform: capitalize;
+}
+
+.box p {
+    position: relative;
+    padding:0 15px 10;
+    line-height: 1.5em;
+    bottom: -210px;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapter 1</title>
+    <link rel="stylesheet" href="./stylesheet/styles.css">
+</head>
+
+<body>
+    <div class="box">
+        <div class="greeting">
+            <script>
+                let today = new Date();
+                let time = today.getHours();
+
+                if (time > 18) {
+                    greet = "Good evening";
+                } else if (time > 12) {
+                    greet = "Good afternoon";
+                } else if (time > 5) {
+                    greet = "good morning...have a great day!";
+                } else {
+                    greet = "Wake the fuck up motherfucker!";
+                }
+                mystr = "<h3>" + greet + "</h3>"
+                document.write(mystr);
+            </script>
+        </div>
+        <p>For all orders & inquiries please call 555-3344</p>
+    </div>
+    <!-- <script src="./javascripts/main.js"></script> -->
+</body> 
+
+</html>

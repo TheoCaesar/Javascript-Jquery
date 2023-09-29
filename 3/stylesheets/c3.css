@@ -1,0 +1,138 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url(https://www.javascriptbook.com/code/c03/images/travelworthy-backdrop.jpg) no-repeat center center;
+    background-size: cover;
+    font-family: sans-serif;
+}
+
+h1 {
+    background: url(https://www.javascriptbook.com/code/c03/images/travelworthy-logo.gif) no-repeat top left fixed;
+    height: 250px;
+    width: 300px;
+    /* display: inline-block; */
+    float: left;
+}
+
+.info {
+    height: 100vh;
+    width: 300px;
+    float: right;
+    margin-right: 15%;
+    background-color: #250606;
+    padding: 35px 20px;
+    color: white;
+    text-align: center;
+    font-size: 32px;
+    opacity: 0.92;
+}
+
+p {
+    margin: 10px auto 25px;
+    padding: 5px;
+}
+
+p:nth-child(1){
+    color: aquamarine;
+}
+
+p:nth-child(2) {
+    text-transform: uppercase;
+    padding: 20px;
+    border-top: 3px  solid #fff;
+    border-bottom: 3px  solid #fff;
+}
+
+p:nth-child(3) {
+    font-size: 50px;
+    color: goldenrod;
+}
+
+p:last-child {
+    margin-top: -30px;
+}
+
+table {
+    width: 100%;
+    /* border: 3px solid white; */
+    /* height: 300px; */
+    font-size: 18px;
+    color: white;
+    text-align: left;
+    padding:  10px 35px;
+    text-transform: capitalize;
+}
+
+.bWin {
+    position: absolute;
+    bottom: 0px;
+    float: left;
+    height: 500px;
+    width: 400px;
+    left: 0;;
+    opacity: 0.8;
+}
+
+.bWin div{
+    margin: -10px;padding: 0;
+}
+
+span {
+    display: inline-block;
+    margin: 0; padding: 0;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    background: goldenrod;
+    border-color: goldenrod;
+}
+
+button a {
+    text-decoration: none;
+    color: #250606;
+    font-weight: bold;
+}
+
+.c-info {
+    height: 100vh;
+    width: 700px;
+    position: absolute;
+    top: 0;
+    right: 100px;
+    background-color: #250606;
+    padding: 25px 10px;
+    color: white;
+    text-align: center;
+    font-size: 32px;
+    opacity: 0.92;
+    background-size: contain;
+}
+
+.c-info table {
+    width: 90%;
+    margin: 0 auto;
+    border: 2px solid goldenrod;
+}
+
+td:first-child {
+    color: aqua;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 20px 10px;
+    width: 80%;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    font-size: 2em;;
+    color: aqua;
+}
