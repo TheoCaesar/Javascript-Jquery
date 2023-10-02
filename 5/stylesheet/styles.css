@@ -1,0 +1,39 @@
+* {
+    margin: 0;padding: 0;box-sizing: border-box;
+}
+
+.cool {
+    color: yellow;
+}
+
+ul  {
+    position: absolute;
+    top: 0;
+    right:0;
+    float: right;
+    margin: 20px;  
+
+}
+
+li {
+    text-align: center;
+    width: 50px;
+    list-style-type: none;
+    display: inline;
+    padding: 14px;
+}
+
+.hot {
+    background-color:  red;
+    padding: 7px;font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+
+em {
+    display: none;
+}
+.cold {
+    background-color:  rgb(88, 3, 225);
+    padding: 7px;font-weight: bold;
+    color: rgb(255, 255, 255);
+}

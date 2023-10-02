@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 960px;
+    background-color: #000;
+    color: rgb(0, 0, 0);
+    font-family: sans-serif;
+}
+
+.content{
+    margin: 10px auto;
+    height: 550px;
+    width: 450px;
+    /* border: 3px solid goldenrod; */
+    border-radius: 10px;
+    overflow: scroll;
+    background: #fffefe;
+}
+
+.heading {
+    padding: 20px;
+    height: 150px;
+    background: #3f3d3d url(https://www.javascriptbook.com/code/c05/images/kinglogo.png) no-repeat;
+    background-position: 50% 30%;
+    width: 100%;
+}
+
+.heading h2 {
+    margin: 0px 50px;
+    text-align: center;
+    margin-top: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+    word-spacing: 8px;
+    letter-spacing: 5px;
+    color: white;
+    font-weight: normal;
+    /* float: left; */
+}
+
+#counter {
+    /* display: block; */
+    width: 20px; height: 20px;
+    text-align: center;
+    position: relative;
+    top: -22px; left: auto;
+    float: right;
+    margin: 0px 10px 0 0;
+    background: #ce9292;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 50%;
+}
+
+ul {
+    background-color: #57a8a2;
+}
+
+li {
+    list-style-type: none;
+    height: 55px;
+    font-size: 24px;
+    padding: 10px 35px;
+    color:white;
+    text-shadow: 2px 3px rgb(85, 85, 85);
+    border-bottom: 1px inset black;
+}
+
+.add {
+    margin-right: 50px;
+    font-size: 39px;
+    border-radius: 50%;
+    /* background-color: aqua; */
+    float: right;
+}
+
+img {
+    width: 70px;
+}
