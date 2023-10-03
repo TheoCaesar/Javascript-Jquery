@@ -31,6 +31,7 @@ recordIcon.addEventListener('click', function(e){playPause(e)}, false)
 var heading = document.getElementsByTagName("h2")[0];
 
 function updateFilename (e) {
+    var originalHeader = heading.innerText;
     //get event handler
     var fname = getTarget(e)
     
@@ -38,6 +39,9 @@ function updateFilename (e) {
     var filename = fname.value; 
     
     // show text in heading
+    if (filename.length===0) {
+        heading.textContent=originalHeader;
+    }
     heading.textContent = filename;
 }
 
