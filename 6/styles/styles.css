@@ -1,0 +1,86 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 960px;
+    background-color: black;
+    color: white;
+}
+
+#container {
+    width: 500px;
+    margin: 0px auto;
+    padding: 10 20px;
+    /* height: 200vh; */
+    background-color: rgb(48, 45, 43);
+    height: 500px;
+    
+}
+
+.login  {
+    margin-top: 20px;
+    font-size: 24px;
+    /* border: 3px solid red; */
+    padding:  15px 10px 0 15px;
+    height: 68%;
+}
+
+h1 {
+    height: 100px;
+    background-image: url(https://www.javascriptbook.com/code/c06/images/kinglogo.png);
+    background-repeat:  no-repeat;
+    /* background-size: 20%; */
+    background-position: 50% 10px;
+}
+
+h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-weight: normal;
+    font-size: 24px;
+}
+
+.field {
+    margin: 20px auto;
+}
+
+label {
+    display: block;
+    margin: 15px 48px;
+    
+}
+
+input {
+    margin: 10px auto;
+    display: block;
+    width: 80%;
+    height: 45px;
+    border-radius: 7px;
+    padding: 15px;
+}
+
+button {
+    float: right;
+    border-radius: 5px;
+    background: rgb(245, 87, 87);
+    color: white;
+    font-weight: bolder;
+    font-size: 18px;
+    border: none;;
+    width: 90px;
+    height: 30px;
+    margin: 20px 48px;
+}
+
+.error-msg {
+    font-size: 15px;
+    color: red;
+    font-weight: normal;
+    letter-spacing: 0.03em;
+    text-align: center;
+}
+
